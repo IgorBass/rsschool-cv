@@ -5,8 +5,8 @@
 * Phone: +995 571 249 027
 * E-mail: igorvenziga@gmail.com
 * Telegram: @ohh_igor
-* [LinkedIn]('https://www.linkedin.com/in/igorven/')
-* [GitHub]('https://github.com/IgorBass')
+* [LinkedIn](https://www.linkedin.com/in/igorven/)
+* [GitHub](https://github.com/IgorBass)
 ## Briefly About Myself:
 
 I want to learn **Front-End Development** in ***RSSchool***!
@@ -64,7 +64,7 @@ main()
 
 """
 
-## Experinse
+## Work experience
 
 Nothing yet
 
@@ -73,6 +73,8 @@ Nothing yet
 1. SZGMU named after I.I. Mechnikov    Medical Doctor
 2. Courses: CS50 computer science, CS50 python, HTMLAcademy
 
-## English: 
+## Language: 
 
-IELTS Band Score 7.5 (C1 level CEFR). Date: 11.04.2022
+- English: IELTS Band Score 7.5 (C1 level CEFR). Date: 11.04.2022
+- German: A2 level CEFR
+- Russian: Native
