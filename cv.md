@@ -23,14 +23,17 @@ I want to learn **Front-End Development** in ***RSSchool***!
 
 """
 str1 = input("Input: ")
+
 def listToString(s):
     str1 = ""
     for ele in s:
         return str1
+
 def Convert(string):
     list1 = []
     list1[:0] = string
     return list1
+
 def main():
     str1_converted = Convert(str1)
     i = 0
@@ -49,8 +52,11 @@ def main():
         ):
             str1_converted[i] = ""
         i += 1
+    
     x = "".join(str1_converted)
+    
     print("Output: " + str(x))
+
 main()
 """
 
