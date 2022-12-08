@@ -21,18 +21,18 @@ I want to learn **Front-End Development** in ***RSSchool***!
 
 ## Code example
 
-"""
-word = input('camelCase: ')
+```
+    word = input('camelCase: ')
 
-if "_" in word:
-    x=word.split('_')
-    first_word = x.pop(0)
+    if "_" in word:
+        x=word.split('_')
+        first_word = x.pop(0)
 
-next_word = ' '.join(x).title()
-end = next_word.replace(" ","")
-print(first_word+end)
+    next_word = ' '.join(x).title()
+    end = next_word.replace(" ","")
+    print(first_word+end)
 
-"""
+```
 
 ## Work experience
 
