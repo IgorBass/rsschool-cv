@@ -22,42 +22,16 @@ I want to learn **Front-End Development** in ***RSSchool***!
 ## Code example
 
 """
-str1 = input("Input: ")
+word = input('camelCase: ')
 
-def listToString(s):
-    str1 = ""
-    for ele in s:
-        return str1
+if "_" in word:
+    x=word.split('_')
+    first_word = x.pop(0)
 
-def Convert(string):
-    list1 = []
-    list1[:0] = string
-    return list1
+next_word = ' '.join(x).title()
+end = next_word.replace(" ","")
+print(first_word+end)
 
-def main():
-    str1_converted = Convert(str1)
-    i = 0
-    while i < len(str1_converted):
-        if (
-            str1_converted[i] == "A"
-            or str1_converted[i] == "a"
-            or str1_converted[i] == "E"
-            or str1_converted[i] == "e"
-            or str1_converted[i] == "I"
-            or str1_converted[i] == "i"
-            or str1_converted[i] == "O"
-            or str1_converted[i] == "o"
-            or str1_converted[i] == "U"
-            or str1_converted[i] == "u"
-        ):
-            str1_converted[i] = ""
-        i += 1
-    
-    x = "".join(str1_converted)
-    
-    print("Output: " + str(x))
-
-main()
 """
 
 ## Work experience
