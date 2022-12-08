@@ -5,8 +5,8 @@
 * Phone: +995 571 249 027
 * E-mail: igorvenziga@gmail.com
 * Telegram: @ohh_igor
-* LinkedIn ('https://www.linkedin.com/in/igorven/')
-* GitHub ('https://github.com/IgorBass')
+* [LinkedIn]('https://www.linkedin.com/in/igorven/')
+* [GitHub]('https://github.com/IgorBass')
 ## Briefly About Myself:
 
 I want to learn **Front-End Development** in ***RSSchool***!
