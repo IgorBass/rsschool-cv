@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="header-nav">
-            <ul class="nav_list">
+            <ul class="navlist">
                 <li class="nav_item"><a href="#about-me">About me</a></li>
                 <li class="nav_item"><a href="#skills">Skills</a></li>
                 <li class="nav_item"><a href="#code">Code</a></li>
@@ -21,29 +21,29 @@
         </nav>
     </header>
     <main>
-        <aside class="left-side">
-            <div>
+        <aside class="leftside">
+            <div class="myphoto">
                 <img src="img/pics/imgOfMe.jpg" alt="myphoto">
             </div>
             <section class="contact" id="contact">
-                <h2 class="title-section">Contact_</h2>
-                <ul class="contact-list">
+                <ul class="contactlist">
+                    <h2 class="titlesection">Contact_</h2>
                     <li><a href="https://t.me/ohh_igor">Telegram</a></li>
                     <li><a href="https://www.linkedin.com/in/igorven/">LinkedIn</a></li>
                     <li><a href="tel:+995-571-249-027">+995-571-249-027</a></li>
                     <li> <address><a href="igorvenziga@gmail.com">igorvenziga@gmail.com</a></address></li>
                     <li><address>
-                        Georgia: <br> Tbilisi
+                        Georgia:  Tbilisi
                     </address></li>
                 </ul>
             </section>
             <section class="education" id="education">
-                <h2 class="title-section">
-                    Education_
-                </h2>
-                <ul class="education-list">
-                    <li>SZGMU named after I.I. Mechnikov <br>Medical Doctor</li>
-                    <li>Courses: <br>CS50 computer science, CS50 python, HTMLAcademy</li>
+                <ul class="educationlist">
+                    <h2 class="titlesection">
+                        Education_
+                    </h2>
+                    <li><b>SZGMU</b> named after I.I. Mechnikov <br>Medical Doctor</li>
+                    <li><b>Courses:</b> <br>CS50 computer science, CS50 python, HTML Academy</li>
                 </ul>
             </section>
         </aside>
@@ -53,7 +53,7 @@
                 <p>Front-End Developer</p>
             </div>
             <article class="about-me" id="about-me">
-                <h2 class="title-section">About me_</h2>
+                <h2 class="titlesection">About me_</h2>
                 <p>I like to study and learn something new. I like to read books, do
                 physical education, listen to music of different genres. I'm fond of
                 good cars and bikes. I lead active and healhy lifestyle. I like to
@@ -65,8 +65,8 @@
                 </p>
             </article>
             <section class="skills" id="skills">
-                <h2 class="title-section">Skills_</h2>
-                <ul class="skills__list">
+                <h2 class="titlesection">Skills_</h2>
+                <ul class="skills_list">
                     <li>Figma, Git, Webpack</li>
                     <li>HTML5, CSS</li>
                     <li>JavaScript Basic</li>
@@ -74,7 +74,7 @@
                 </ul>
             </section>
             <section class="code" id="code">
-                <h2 class="title-section">Code Example_</h2>
+                <h2 class="titlesection">Code Example_</h2>
                 <pre>
                     <code>
 word = input('camelCase: ')
@@ -93,18 +93,17 @@ print(first_word+end)
         </section>
     </main>
     <footer>
-        <div class="git-link">
-            <a 
-           target="_blank" href="https://github.com/IgorBass">
+        <a target="_blank" href="https://github.com/IgorBass" class="git-link">
+            <div>
                 <img src="img/icons/github.png" alt="githublink">
-            </a>
-        </div>
-        <p>2022-2023</p>
-        <div class="footer_rsschool">
-            <a href="https://rs.school/js/" target="_blank">
+            </div>
+        </a>
+        <h2 class="titlesection">2022-2023</h2>
+    <a href="https://rs.school/js/" target="_blank" class="footer-rsschool">
+        <div>
             <img src="https://rs.school/images/rs_school_js.svg" alt="RS School">
-          </a>
         </div>
+    </a>
     </footer>
 </body>
 </html>

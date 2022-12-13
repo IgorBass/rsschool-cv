@@ -1,56 +1,136 @@
-.nav_list
-{
-    display:flex;
-    border: 2px solid black;
-    justify-content: space-between;
-    list-style: none;
-    background-color: lightgoldenrodyellow;
-    color: black;
-    flex-wrap: wrap;
-}
 body{
-    width: 900px;
+    width: 1280px;
     margin: auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1.8'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='10'/%3E%3Ccircle cx='539' cy='269' r='10'/%3E%3Ccircle cx='603' cy='493' r='10'/%3E%3Ccircle cx='731' cy='737' r='10'/%3E%3Ccircle cx='520' cy='660' r='10'/%3E%3Ccircle cx='309' cy='538' r='10'/%3E%3Ccircle cx='295' cy='764' r='10'/%3E%3Ccircle cx='40' cy='599' r='10'/%3E%3Ccircle cx='102' cy='382' r='10'/%3E%3Ccircle cx='127' cy='80' r='10'/%3E%3Ccircle cx='370' cy='105' r='10'/%3E%3Ccircle cx='578' cy='42' r='10'/%3E%3Ccircle cx='237' cy='261' r='10'/%3E%3Ccircle cx='390' cy='382' r='10'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+header{
+    width: 100%;
+}
+.nav_item{
+    background-color: rgba(119, 136, 153, 0.8);
+    border-radius: 10%;
+}
+.nav_item:hover{
+    color: aliceblue;
+    background-color: rgb(184, 118, 245);
+}
+.navlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 1%; 
+}
+
+.navlist a{
+    padding: 15px 15px;
+    line-height: normal;
+    color: black;
+    font-size: x-large;
 }
 
 main{
     display: grid;
-    grid-template-columns: 300px auto;
-    justify-content: space-evenly;
+    grid-template-columns: 1fr 2fr;
     gap: 5%;
-    flex-wrap: wrap;
 }
 
-.left-side img{
-    max-width:300px;
-    max-height: 500px;
-    padding: auto;
+.leftside{
+    width: 100%;
+    color: aliceblue;
+    
 }
 
-.left-side{
-    background-color: lightskyblue;
-}
-.left-side ul{
+.myphoto{
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    height: min-content;
+  }
+
+  .myphoto img{
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px black;
+  }
+.contactlist{
+    padding: 5% 10%;
+    background-color: rgba(119, 136, 153, 0.8);
+    color: black;
     list-style: none;
-    text-align: left;
+}
+.educationlist{
+    padding: 5% 10%;
+    background-color: rgba(119, 136, 153, 0.8);
+    color: black;
+    list-style: lower-greek;
+}
+.titlesection{
+    font-weight: bolder;
 }
 
-code{
-    display: block;
-    border: 1px solid black;
-    padding: 2%;
-    color: green;
+.title h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bolder;
+    background-color: rgba(119, 136, 153, 0.8);
+    margin-right: 65%;
 }
-.git-link img{
-    max-width: 50px;
+
+.title p{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(119, 136, 153, 0.8);
+    padding: 1%;
+    margin-right: 65%;
+}   
+
+.about-me{
+    background-color: rgba(119, 136, 153, 0.8);
+    padding-left: 5%;
+    padding-bottom: 3%;
 }
-.footer_rsschool img{
-    width: 100px;
+
+.skills{
+    background-color: rgba(119, 136, 153, 0.8);
+    margin-top: 2.7%;
+    padding-top: 2%;
+    padding-bottom: 2.15%;
+    padding-left: 5%;
+}
+.code h2{
+    background-color: rgba(119, 136, 153, 0.8);
+    margin-right: 65%;
+}
+
+.code pre{
+  border:2px solid #000;
+  background:#fff;
+  font-size:1em;
 }
 
 footer{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 20px 60px 20px 60px;
+    height: 10%;
+    max-height: fit-content;
+    align-items: center;
+    background-color: rgba(50, 56, 63, 0.8);
+}
+footer img{
+    max-width: 30%;
+}
+
+footer h2{
+    justify-self: center;
+}
+
+.footer-rsschool img{
+    padding-left: 200px;
 }
