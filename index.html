@@ -4,8 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Igor Venziga CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons/brain.png">
 </head>
 <body>
+    <header>
+        <nav class="header-nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#about-me">About me</a></li>
+                <li class="nav_item"><a href="#skills">Skills</a></li>
+                <li class="nav_item"><a href="#code">Code</a></li>
+                <li class="nav_item"><a href="#contact">Contact</a></li>
+                <li class="nav_item"><a href="#education">Education</a></li>
+              </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="left-side">
+            <div>
+                <img src="img/pics/imgOfMe.jpg" alt="myphoto">
+            </div>
+            <section class="contact" id="contact">
+                <h2 class="title-section">Contact_</h2>
+                <ul class="contact-list">
+                    <li><a href="https://t.me/ohh_igor">Telegram</a></li>
+                    <li><a href="https://www.linkedin.com/in/igorven/">LinkedIn</a></li>
+                    <li><a href="tel:+995-571-249-027">+995-571-249-027</a></li>
+                    <li> <address><a href="igorvenziga@gmail.com">igorvenziga@gmail.com</a></address></li>
+                    <li><address>
+                        Georgia: <br> Tbilisi
+                    </address></li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="title-section">
+                    Education_
+                </h2>
+                <ul class="education-list">
+                    <li>SZGMU named after I.I. Mechnikov <br>Medical Doctor</li>
+                    <li>Courses: <br>CS50 computer science, CS50 python, HTMLAcademy</li>
+                </ul>
+            </section>
+        </aside>
+        <section class="right-side">
+            <div class="title">
+                <h1>Igor<br>Venziga</h1>
+                <p>Front-End Developer</p>
+            </div>
+            <article class="about-me" id="about-me">
+                <h2 class="title-section">About me_</h2>
+                <p>I like to study and learn something new. I like to read books, do
+                physical education, listen to music of different genres. I'm fond of
+                good cars and bikes. I lead active and healhy lifestyle. I like to
+                work and see the results of my work.
+                Since childhood, I have had a predisposition to work with
+                electronics and computers. I like to disassemble, assemble and
+                configure something. I can build, configure, solve problems with
+                computers.
+                </p>
+            </article>
+            <section class="skills" id="skills">
+                <h2 class="title-section">Skills_</h2>
+                <ul class="skills__list">
+                    <li>Figma, Git, Webpack</li>
+                    <li>HTML5, CSS</li>
+                    <li>JavaScript Basic</li>
+                    <li>Python Basic</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="title-section">Code Example_</h2>
+                <pre>
+                    <code>
+word = input('camelCase: ')
+
+if "_" in word:
+    x=word.split('_')
+    first_word = x.pop(0)
+                    
+next_word = ' '.join(x).title()
+end = next_word.replace(" ","")
+print(first_word+end)
+                    
+                    </code>
+                </pre>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="git-link">
+            <a 
+           target="_blank" href="https://github.com/IgorBass">
+                <img src="img/icons/github.png" alt="githublink">
+            </a>
+        </div>
+        <p>2022-2023</p>
+        <div class="footer_rsschool">
+            <a href="https://rs.school/js/" target="_blank">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School">
+          </a>
+        </div>
+    </footer>
 </body>
 </html>

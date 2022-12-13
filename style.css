@@ -1,0 +1,56 @@
+.nav_list
+{
+    display:flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    list-style: none;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    flex-wrap: wrap;
+}
+body{
+    width: 900px;
+    margin: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-content: space-evenly;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.left-side img{
+    max-width:300px;
+    max-height: 500px;
+    padding: auto;
+}
+
+.left-side{
+    background-color: lightskyblue;
+}
+.left-side ul{
+    list-style: none;
+    text-align: left;
+}
+
+code{
+    display: block;
+    border: 1px solid black;
+    padding: 2%;
+    color: green;
+}
+.git-link img{
+    max-width: 50px;
+}
+.footer_rsschool img{
+    width: 100px;
+}
+
+footer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    background-color: blue;
+}
