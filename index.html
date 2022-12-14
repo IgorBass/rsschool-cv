@@ -12,11 +12,13 @@
     <header>
         <nav class="header-nav">
             <ul class="navlist">
-                <li class="nav_item"><a href="#about-me">About me</a></li>
-                <li class="nav_item"><a href="#skills">Skills</a></li>
-                <li class="nav_item"><a href="#code">Code</a></li>
-                <li class="nav_item"><a href="#contact">Contact</a></li>
-                <li class="nav_item"><a href="#education">Education</a></li>
+                <li class="nav-item"><a href="#about-me">About me</a></li>
+                <li class="nav-item"><a href="#skills">Skills</a></li>
+                <li class="nav-item"><a href="#code">Code</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#education">Education</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#language">Language</a></li>
               </ul>
         </nav>
     </header>
@@ -26,46 +28,51 @@
                 <img src="img/pics/imgOfMe.jpg" alt="myphoto">
             </div>
             <section class="contact" id="contact">
-                <ul class="contactlist">
-                    <h2 class="titlesection">Contact_</h2>
+                <h2 class="section-title">Contact</h2>
+                <ul class="contact-list">
                     <li><a href="https://t.me/ohh_igor">Telegram</a></li>
                     <li><a href="https://www.linkedin.com/in/igorven/">LinkedIn</a></li>
                     <li><a href="tel:+995-571-249-027">+995-571-249-027</a></li>
                     <li> <address><a href="igorvenziga@gmail.com">igorvenziga@gmail.com</a></address></li>
-                    <li><address>
-                        Georgia:  Tbilisi
-                    </address></li>
+                    <li><a href="https://goo.gl/maps/SAPmRikjNEQBXzZa9">Georgia: Tbilisi</a></li>
                 </ul>
             </section>
             <section class="education" id="education">
-                <ul class="educationlist">
-                    <h2 class="titlesection">
-                        Education_
-                    </h2>
+                <h2 class="section-title">Education</h2>
+                <ul class="education-list">
                     <li><b>SZGMU</b> named after I.I. Mechnikov <br>Medical Doctor</li>
-                    <li><b>Courses:</b> <br>CS50 computer science, CS50 python, HTML Academy</li>
+                    <li><b>Courses:</b>
+                        <ol>
+                            <li>HTML Academy</li>
+                            <li>CS50 python</li>
+                        </ol>
+                </ul>
+            </section>
+            <section class="language" id="language">
+                <h2 class="section-title">Contact</h2>
+                <ul class="language-list">
+                    <li><b>English:</b> IELTS Band Score 7.5 (C1 level CEFR). Date: 11.04.2022</li>
+                    <li><b>German:</b> A2 level CEFR</li>
+                    <li><b>Russian:</b> Native</li>
                 </ul>
             </section>
         </aside>
         <section class="right-side">
-            <div class="title">
+            <div class="main-title">
                 <h1>Igor<br>Venziga</h1>
                 <p>Front-End Developer</p>
             </div>
             <article class="about-me" id="about-me">
-                <h2 class="titlesection">About me_</h2>
-                <p>I like to study and learn something new. I like to read books, do
-                physical education, listen to music of different genres. I'm fond of
-                good cars and bikes. I lead active and healhy lifestyle. I like to
-                work and see the results of my work.
-                Since childhood, I have had a predisposition to work with
-                electronics and computers. I like to disassemble, assemble and
-                configure something. I can build, configure, solve problems with
-                computers.
+                <h2 class="section-title">About me</h2>
+                <p>
+                I am passionate about my work. 
+                Because I love what I do, I have a steady source of motivation that drives me to do my best. 
+                In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work.
+                I like to study and learn something new. I like to read books.
                 </p>
             </article>
             <section class="skills" id="skills">
-                <h2 class="titlesection">Skills_</h2>
+                <h2 class="section-title">Skills</h2>
                 <ul class="skills_list">
                     <li>Figma, Git, Webpack</li>
                     <li>HTML5, CSS</li>
@@ -74,34 +81,44 @@
                 </ul>
             </section>
             <section class="code" id="code">
-                <h2 class="titlesection">Code Example_</h2>
+                <h2 class="section-title">Code Example</h2>
                 <pre>
                     <code>
-word = input('camelCase: ')
+            word = input('camelCase: ')
 
-if "_" in word:
-    x=word.split('_')
-    first_word = x.pop(0)
-                    
-next_word = ' '.join(x).title()
-end = next_word.replace(" ","")
-print(first_word+end)
+            if "_" in word:
+                x=word.split('_')
+                first_word = x.pop(0)
+                                
+            next_word = ' '.join(x).title()
+            end = next_word.replace(" ","")
+            print(first_word+end)
                     
                     </code>
                 </pre>
             </section>
+            <section class="projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li><a href="https://github.com/IgorBass/CS50Python">CS50's Introduction to Programming with Python</a></li>
+                    <li>More in progress...</li>
+                </ul>
+            </section>
         </section>
     </main>
     <footer>
-        <a target="_blank" href="https://github.com/IgorBass" class="git-link">
+        <a target="_blank" href="https://github.com/IgorBass" class = "gitlink">
             <div>
                 <img src="img/icons/github.png" alt="githublink">
             </div>
         </a>
-        <h2 class="titlesection">2022-2023</h2>
+        <h2 class="year">2022</h2>
     <a href="https://rs.school/js/" target="_blank" class="footer-rsschool">
         <div>
-            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School">
+            <img src="https://rs.school/images/rs_school_js.svg"
+            width="90"
+            height="30"
+            alt="RS School">
         </div>
     </a>
     </footer>
